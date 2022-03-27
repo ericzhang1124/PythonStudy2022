@@ -9,3 +9,14 @@
 "0.1".isdigit() # => return False, because "." 
 ```
 
+## set数据类型
+> 相比较于list，无序 & 不重复
+```python
+my_set = {'hello', 'kitty', 'is', 'kawayi', 'is'}
+# 无序 - 意味着元素位置不固定，无法向list一样使用 my_set[index]这样的方式获取元素
+# 无序 - 同样意味着当使用 for set_element in my_set:方式遍历元素时，每次获取的元素顺序不固定
+
+# 不重复 - 该数据类型会自动将重复元素剔除
+
+# dict里的key的构成其实就是set，set就相当于没有value的dict
+```
