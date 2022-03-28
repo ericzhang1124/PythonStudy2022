@@ -46,3 +46,5 @@ if __name__ == '__main__':
 
     my_set = {'hello', 'kitty', 'is', 'kawayi', 'is'}
     print(my_set)
+
+    print("111".isdigit())

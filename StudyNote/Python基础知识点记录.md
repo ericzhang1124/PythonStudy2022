@@ -5,12 +5,12 @@
 ```python
 "10".isdigit() # => return True
 "text".isdigit() # => return False
-"-10".isdigit() # => return False, because "-"
-"0.1".isdigit() # => return False, because "." 
+"-10".isdigit() # => return False, because "-" is not digit
+"0.1".isdigit() # => return False, because "." is not digit
 ```
 
 ## set数据类型
-> 相比较于list，无序 & 不重复
+> 相比较于list，无序 & 不重复 (不过他们都是可变对象，可以添加或移除元素)
 ```python
 my_set = {'hello', 'kitty', 'is', 'kawayi', 'is'}
 # 无序 - 意味着元素位置不固定，无法向list一样使用 my_set[index]这样的方式获取元素
