@@ -27,14 +27,11 @@ my_set = {'hello', 'kitty', 'is', 'kawayi', 'is'}
 
 ## import & from import
 > `import` function is find the module file and get all the file defined element(variable, class,function)
-   >> import build-in-module (such as   `import time`)
->
-   >> import build-in-package-moudle(such as `import html.parser`)
->
-   >> import third-party-package-moudle(just as import build-in-package-moudle)
+>   - import build-in-module (such as   `import time`)
+>   - import build-in-package-moudle(such as `import html.parser`)
+>   - import third-party-package-moudle(just as import build-in-package-moudle)
 
----
 
 > `from import` function is find the module file and get one or more clarity element(variable, class,function)
-   >> from <module> import <element(variable, class,function)>(such as `from html.parser import HTMLParser`)
+>   - from <module> import <element(variable, class,function)>(such as `from html.parser import HTMLParser`)
 
