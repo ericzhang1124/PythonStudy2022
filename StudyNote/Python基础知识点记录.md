@@ -20,3 +20,15 @@ my_set = {'hello', 'kitty', 'is', 'kawayi', 'is'}
 
 # dict里的key的构成其实就是set，set就相当于没有value的dict
 ```
+
+## module & package
+> module Just a python file with defined(class, function, variable),This Python 特性产物
+> package can look as a collection of modules, thoese modules has dictionary construct
+--
+>> `import` function is find the module file and get all the file defined element(variable, class,function)
+    > import build-in-module (such as   `import time`)
+    > import build-in-package-moudle(such as `import html.parser`)
+    > import third-party-package-moudle(just as import build-in-package-moudle)
+>> `from import` function is find the module file and get one or more clarity element(variable, class,function)
+    > from <module> import <element(variable, class,function)>(such as `from html.parser import HTMLParser`)
+
