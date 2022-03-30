@@ -37,3 +37,9 @@ my_set = {'hello', 'kitty', 'is', 'kawayi', 'is'}
 
 ## excel操作推荐库
 > openpyxl
+
+
+## class本质
+
+- class 本质其实就是一种数据的封装，是一种自定义的数据类型和str、int、list、dictionary这些没啥区别
+- class 就好比一个模板，用来生产具体的一个一个的模板实体，这个用来生产的方法就是（构造方法）～！
