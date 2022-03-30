@@ -35,3 +35,5 @@ my_set = {'hello', 'kitty', 'is', 'kawayi', 'is'}
 > `from import` function is find the module file and get one or more clarity element(variable, class,function)
 >   - from \<module\> import \<element(variable, class,function)\>(such as `from html.parser import HTMLParser`)
 
+## excel操作推荐库
+> openpyxl
